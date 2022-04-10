@@ -1,0 +1,44 @@
+.main {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+#one {
+  color: blueviolet;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+#two {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+#thr {
+  letter-spacing: 1px;
+  line-height: 1rem;
+  text-align: justify;
+}
+#bt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 10rem;
+  height: 2rem;
+  color: aliceblue;
+  border: none;
+  border-radius: 2rem;
+  background: blueviolet;
+  cursor: pointer;
+}
+#img {
+  width: 60rem;
+  height: 30rem;
+
+  background-image: url(undraw_Noted_re_c5wv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
