@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  border: 2px solid;
+  width: 90%;
+  height: 30%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  background-color: blue;
+}
+.head,
+.sub,
+.bt {
+  color: white;
+}
+.head {
+  text-align: center;
+  padding-top: 2rem;
+}
+.sub {
+  padding-top: 3rem;
+}
+.bt {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

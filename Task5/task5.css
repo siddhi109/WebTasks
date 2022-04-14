@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: rgb(14, 9, 88);
+  display: flex;
+  padding: 70px 0;
+  position: absolute;
+  top: 50%;
+}
+.con {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: gray;
+}
+.a {
+  list-style: none;
+  color: azure;
+}
+
+.sub {
+  width: 25%;
+  padding: 30px 55px;
+}
+.sub h4 {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  text-align: justify;
+  font-weight: 500;
+  position: relative;
+}
+#follow {
+  color: azure;
+}
+.sub ul li,
+p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: rgba(220, 240, 245, 0.93);
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: 400;
+  display: block;
+}
+.sub .links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+  color: white;
+}
+
+@media(max-width:767px)
+{
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 767px)
+{
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
