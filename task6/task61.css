@@ -53,6 +53,7 @@
   width: 200px;
   padding: 15px 0;
   text-align: center;
+  border: none;
   margin: 20px 10px;
   border-radius: 5px;
   font-weight: bold;
@@ -64,6 +65,7 @@
   padding: 15px 0;
   text-align: center;
   margin: 20px 10px;
+  border: none;
   border-radius: 5px;
   font-weight: bold;
   background: aqua;
