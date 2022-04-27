@@ -1,0 +1,189 @@
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 85vh;
+}
+.offers {
+  padding-top: 8.75rem;
+}
+
+.offers .offer-box .offer-image::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -100%;
+  z-index: 2;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(to right, black, grey);
+  background: linear-gradient(to right, black, grey);
+  transform: skewX(-25deg);
+}
+
+.offers .offer-box .offer-image img {
+  transform: scale(1.02);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offers .offer-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.offers .offer-box .offer-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  transition: all 250ms ease-out;
+  justify-content: center;
+  align-items: center;
+}
+.offers .offer-box .offer-info .heading-bigger {
+  font-size: 4.375rem;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: white;
+}
+
+.offers .offer-box .offer-info .offer-title {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.offers .offer-box .offer-info .btn-outline-danger {
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.products {
+  padding-top: 8.75rem;
+}
+
+.headline h2::before {
+  content: "";
+  width: 30%;
+  height: 0.125rem;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.625rem;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+.product-list .product-image .product-image-secondary {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.product-list .product-image .product-image-secondary {
+  opacity: 1;
+}
+
+.product-list .product-image .sale {
+  background: red;
+  border-radius: 0.313rem;
+  color: white;
+  font-size: 0.813rem;
+  letter-spacing: 0.125rem;
+  line-height: 1.563rem;
+  padding: 0.125rem 1.813rem;
+  text-transform: uppercase;
+  position: absolute;
+  left: 1rem;
+  top: 1.188rem;
+  z-index: 99;
+}
+
+.product-list .product-name h3 {
+  font-size: 1.125rem;
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+
+.product-list .product-name h3:hover {
+  color: red;
+}
+
+.product-list .product-name .amount {
+  color: red;
+  font-weight: 500;
+}
+
+.product-list .product-name .amount del {
+  color: gray;
+}
+.product-list .product-name .ti-star.active {
+  color: gray;
+}
+
+.product-list .product-name .add_to_cart {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease 0.3s;
+}
+
+.product-list .product-name .add_to_cart:hover {
+  color: red;
+}
+
+.products .up_to_off::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.products .up_to_off img {
+  transition: 0.5s;
+}
+.products .up_to_off:hover img {
+  transform: scale(1.1);
+}
+.products .up_to_content h2 {
+  color: white;
+  font-size: 1.625rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
